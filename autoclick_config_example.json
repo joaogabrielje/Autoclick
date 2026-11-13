@@ -1,0 +1,50 @@
+{
+  "actions": [
+    {
+      "type": "delay",
+      "time": 2000
+    },
+    {
+      "type": "click",
+      "x": 100,
+      "y": 200,
+      "button": "left",
+      "hold": 0,
+      "delay": 500
+    },
+    {
+      "type": "key",
+      "key": "a",
+      "hold": 0,
+      "delay": 100
+    },
+    {
+      "type": "key",
+      "key": "b",
+      "hold": 0,
+      "delay": 100
+    },
+    {
+      "type": "key",
+      "key": "c",
+      "hold": 0,
+      "delay": 100
+    },
+    {
+      "type": "key",
+      "key": "enter",
+      "hold": 0,
+      "delay": 500
+    },
+    {
+      "type": "click",
+      "x": 300,
+      "y": 400,
+      "button": "left",
+      "hold": 2000,
+      "delay": 1000
+    }
+  ],
+  "repetitions": 3,
+  "repeat_delay": 2000
+}
